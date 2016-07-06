@@ -18,7 +18,7 @@ class ViewController: UIViewController {
         
         time += 1
         
-        print("\(time) time has passed!")
+        self.label.text = "\(time) time has passed!"
         
     }
 
