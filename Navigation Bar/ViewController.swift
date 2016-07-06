@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     
     func result() {
         
-        time++
+        time += 1
         
         print("\(time) time has passed!")
         
@@ -27,7 +27,7 @@ class ViewController: UIViewController {
         
         var timer = NSTimer()
         
-        timer = NSTimer.scheduledTimerWithTimeInterval(1, target: self, selector: Selector("result"), userInfo: nil, repeats: true)
+        timer = NSTimer.scheduledTimerWithTimeInterval(1, target: self, selector: #selector(ViewController.result), userInfo: nil, repeats: true)
     }
 
     override func didReceiveMemoryWarning() {
