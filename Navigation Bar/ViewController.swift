@@ -13,13 +13,16 @@ class ViewController: UIViewController {
     // global scope
     @IBOutlet weak var label: UILabel!
     var time = 0
+    var status = ""
     var timer = NSTimer()
     
     func result() {
         
         time += 1
         
-        self.label.text = "\(time) seconds has passed!"
+        status = "\(time) seconds has passed!"
+        
+        self.label.text = status
         
     }
 
@@ -50,7 +53,7 @@ class ViewController: UIViewController {
 
         timer.delete(self)
         
-        self.label.text += " — Timer has been Stopped!"
+        self.label.text = status + " — Timer has been Stopped!"
         
     }
     
