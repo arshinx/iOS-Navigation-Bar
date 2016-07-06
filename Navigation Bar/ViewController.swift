@@ -44,6 +44,7 @@ class ViewController: UIViewController {
         timer.fire()
     }
     
+    // Stop Timer
     @IBAction func stop(sender: AnyObject) {
         
         
