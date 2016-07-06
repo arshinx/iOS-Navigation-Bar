@@ -18,26 +18,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WEY-NI-hlL">
-                                <rect key="frame" x="0.0" y="556" width="600" height="44"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="44" id="isG-lg-LFs"/>
-                                </constraints>
-                                <items>
-                                    <barButtonItem title="Reset" id="lhB-aM-i1i"/>
-                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="TzA-MQ-fSs"/>
-                                    <barButtonItem title="Compose New" id="T8S-z7-ua8"/>
-                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="O2D-Y3-qD5"/>
-                                    <barButtonItem systemItem="camera" id="irD-ib-vjC"/>
-                                </items>
-                            </toolbar>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JEV-Wj-eT3">
-                                <rect key="frame" x="20" y="289" width="560" height="21"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="28"/>
-                                <color key="textColor" red="0.39607843139999999" green="0.39607843139999999" blue="0.37647058820000001" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                                <size key="shadowOffset" width="-2" height="-5"/>
-                            </label>
                             <navigationBar contentMode="scaleToFill" barStyle="black" translatesAutoresizingMaskIntoConstraints="NO" id="zSq-av-Yl1">
                                 <rect key="frame" x="0.0" y="20" width="600" height="44"/>
                                 <constraints>
@@ -58,6 +38,26 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WEY-NI-hlL">
+                                <rect key="frame" x="0.0" y="556" width="600" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="isG-lg-LFs"/>
+                                </constraints>
+                                <items>
+                                    <barButtonItem title="Reset" id="lhB-aM-i1i"/>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="TzA-MQ-fSs"/>
+                                    <barButtonItem title="Compose New" id="T8S-z7-ua8"/>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="O2D-Y3-qD5"/>
+                                    <barButtonItem systemItem="camera" id="irD-ib-vjC"/>
+                                </items>
+                            </toolbar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JEV-Wj-eT3">
+                                <rect key="frame" x="20" y="289" width="560" height="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="28"/>
+                                <color key="textColor" red="0.39607843139999999" green="0.39607843139999999" blue="0.37647058820000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <size key="shadowOffset" width="-2" height="-5"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -65,8 +65,10 @@
                             <constraint firstItem="zSq-av-Yl1" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="Gh2-i4-CIl"/>
                             <constraint firstAttribute="trailingMargin" secondItem="zSq-av-Yl1" secondAttribute="trailing" constant="-20" id="IVq-PI-8G2"/>
                             <constraint firstItem="zSq-av-Yl1" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="THj-3f-dHO"/>
+                            <constraint firstItem="JEV-Wj-eT3" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="lcz-i0-fQa"/>
                             <constraint firstAttribute="trailingMargin" secondItem="WEY-NI-hlL" secondAttribute="trailing" constant="-20" id="o9d-Y6-drA"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="WEY-NI-hlL" secondAttribute="bottom" id="olf-9v-5w1"/>
+                            <constraint firstItem="JEV-Wj-eT3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="xCg-Se-56A"/>
                         </constraints>
                     </view>
                     <connections>
