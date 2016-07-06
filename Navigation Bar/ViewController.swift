@@ -11,7 +11,7 @@ import UIKit
 class ViewController: UIViewController {
     
     // global scope
-    
+    @IBOutlet weak var label: UILabel!
     var time = 0
     
     func result() {
@@ -25,16 +25,23 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        var timer = NSTimer()
-        
-        timer = NSTimer.scheduledTimerWithTimeInterval(1, target: self, selector: #selector(ViewController.result), userInfo: nil, repeats: true)
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    @IBOutlet weak var start: UIBarButtonItem!
 
+    @IBAction func startTimer(sender: AnyObject) {
+        
+        var timer = NSTimer()
+        
+        timer = NSTimer.scheduledTimerWithTimeInterval(1, target: self, selector: #selector(ViewController.result), userInfo: nil, repeats: true)
+        
+        timer.fire()
+    }
+    
 
 }
 
