@@ -22,6 +22,7 @@ class ViewController: UIViewController {
         
     }
 
+    // No action when view loads
     override func viewDidLoad() {
         super.viewDidLoad()
         
