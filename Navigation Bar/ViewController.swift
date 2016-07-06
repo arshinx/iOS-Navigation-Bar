@@ -31,6 +31,8 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    // Outlet -- Not being used presently
     @IBOutlet weak var start: UIBarButtonItem!
 
     @IBAction func startTimer(sender: AnyObject) {
@@ -41,6 +43,10 @@ class ViewController: UIViewController {
         
         timer.fire()
     }
+    
+    @IBAction func stop(sender: AnyObject) {
+    }
+    
     
 
 }
