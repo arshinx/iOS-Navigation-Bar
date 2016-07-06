@@ -45,6 +45,8 @@ class ViewController: UIViewController {
     }
     
     @IBAction func stop(sender: AnyObject) {
+        
+        
     }
     
     
