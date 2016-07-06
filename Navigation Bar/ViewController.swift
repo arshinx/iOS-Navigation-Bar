@@ -50,6 +50,8 @@ class ViewController: UIViewController {
 
         timer.delete(self)
         
+        self.label.text += " — Timer has been Stopped!"
+        
     }
     
     
