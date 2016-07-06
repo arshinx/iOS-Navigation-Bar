@@ -25,7 +25,9 @@
                                 </constraints>
                                 <items>
                                     <navigationItem title="Navigation Bars" id="0ge-jK-5jK">
-                                        <barButtonItem key="leftBarButtonItem" title="Edit" id="An3-O5-rn0"/>
+                                        <barButtonItem key="leftBarButtonItem" systemItem="edit" id="An3-O5-rn0">
+                                            <color key="tintColor" red="0.87843137250000003" green="0.29410944065714284" blue="0.094117647060000004" alpha="1" colorSpace="calibratedRGB"/>
+                                        </barButtonItem>
                                         <barButtonItem key="rightBarButtonItem" title="Item" id="6A3-sK-iog"/>
                                     </navigationItem>
                                 </items>
