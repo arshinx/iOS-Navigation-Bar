@@ -32,12 +32,28 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WEY-NI-hlL">
+                                <rect key="frame" x="0.0" y="556" width="600" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="isG-lg-LFs"/>
+                                </constraints>
+                                <items>
+                                    <barButtonItem title="Item" id="lhB-aM-i1i"/>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="TzA-MQ-fSs"/>
+                                    <barButtonItem systemItem="compose" id="T8S-z7-ua8"/>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="O2D-Y3-qD5"/>
+                                    <barButtonItem systemItem="camera" id="irD-ib-vjC"/>
+                                </items>
+                            </toolbar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="WEY-NI-hlL" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="3sJ-Pf-Ae5"/>
                             <constraint firstItem="zSq-av-Yl1" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="Gh2-i4-CIl"/>
                             <constraint firstAttribute="trailingMargin" secondItem="zSq-av-Yl1" secondAttribute="trailing" constant="-20" id="IVq-PI-8G2"/>
                             <constraint firstItem="zSq-av-Yl1" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="THj-3f-dHO"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="WEY-NI-hlL" secondAttribute="trailing" constant="-20" id="o9d-Y6-drA"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="WEY-NI-hlL" secondAttribute="bottom" id="olf-9v-5w1"/>
                         </constraints>
                     </view>
                 </viewController>
