@@ -48,6 +48,7 @@ class ViewController: UIViewController {
     // Stop Timer Function
     @IBAction func stop(sender: AnyObject) {
 
+        timer.delete(self)
         
     }
     
