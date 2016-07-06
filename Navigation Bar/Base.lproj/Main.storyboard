@@ -24,7 +24,7 @@
                                     <constraint firstAttribute="height" constant="44" id="sIh-sc-8wW"/>
                                 </constraints>
                                 <items>
-                                    <navigationItem id="0ge-jK-5jK"/>
+                                    <navigationItem title="Navigation Bars" id="0ge-jK-5jK"/>
                                 </items>
                             </navigationBar>
                         </subviews>
