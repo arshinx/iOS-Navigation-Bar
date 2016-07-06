@@ -9,6 +9,12 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    func result() {
+        
+        print("1 second has passed!")
+        
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
