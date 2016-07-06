@@ -10,6 +10,10 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    // global scope
+    
+    var time = 0
+    
     func result() {
         
         print("1 second has passed!")
