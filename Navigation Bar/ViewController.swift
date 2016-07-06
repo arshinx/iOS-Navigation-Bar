@@ -16,7 +16,9 @@ class ViewController: UIViewController {
     
     func result() {
         
-        print("1 second has passed!")
+        time++
+        
+        print("\(time) time has passed!")
         
     }
 
