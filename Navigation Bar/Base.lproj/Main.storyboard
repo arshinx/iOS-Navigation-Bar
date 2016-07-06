@@ -25,10 +25,10 @@
                                 </constraints>
                                 <items>
                                     <navigationItem title="Navigation Bars" id="0ge-jK-5jK">
-                                        <barButtonItem key="leftBarButtonItem" systemItem="edit" id="An3-O5-rn0">
+                                        <barButtonItem key="leftBarButtonItem" title="Stop" id="An3-O5-rn0">
                                             <color key="tintColor" red="0.87843137250000003" green="0.29410944065714284" blue="0.094117647060000004" alpha="1" colorSpace="calibratedRGB"/>
                                         </barButtonItem>
-                                        <barButtonItem key="rightBarButtonItem" title="Item" id="6A3-sK-iog"/>
+                                        <barButtonItem key="rightBarButtonItem" title="Start" id="6A3-sK-iog"/>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
@@ -38,9 +38,9 @@
                                     <constraint firstAttribute="height" constant="44" id="isG-lg-LFs"/>
                                 </constraints>
                                 <items>
-                                    <barButtonItem title="Item" id="lhB-aM-i1i"/>
+                                    <barButtonItem title="Reset" id="lhB-aM-i1i"/>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="TzA-MQ-fSs"/>
-                                    <barButtonItem systemItem="compose" id="T8S-z7-ua8"/>
+                                    <barButtonItem title="Compose New" id="T8S-z7-ua8"/>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="O2D-Y3-qD5"/>
                                     <barButtonItem systemItem="camera" id="irD-ib-vjC"/>
                                 </items>
