@@ -35,6 +35,7 @@ class ViewController: UIViewController {
     // Outlet -- Not being used presently
     @IBOutlet weak var start: UIBarButtonItem!
 
+    // Start Timer Function
     @IBAction func startTimer(sender: AnyObject) {
         
         var timer = NSTimer()
@@ -44,7 +45,7 @@ class ViewController: UIViewController {
         timer.fire()
     }
     
-    // Stop Timer
+    // Stop Timer Function
     @IBAction func stop(sender: AnyObject) {
         
         
