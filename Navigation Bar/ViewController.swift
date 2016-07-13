@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var label: UILabel!
     var time = 0
     var status = ""
-    var timer = NSTimer()
+    var timer = Timer()
     
     func result() {
         
@@ -43,7 +43,7 @@ class ViewController: UIViewController {
     // Start Timer Function
     @IBAction func startTimer(sender: AnyObject) {
         
-        timer = NSTimer.scheduledTimerWithTimeInterval(1, target: self, selector: #selector(ViewController.result), userInfo: nil, repeats: true)
+        timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(ViewController.result), userInfo: nil, repeats: true)
         
         timer.fire()
     }
